@@ -1,0 +1,42 @@
+{
+  "SceneConfig": [
+    {
+      "SceneName": "MainMenu",
+      "SceneIndex": 0,
+      "PrefabCanvasScreensPath": [
+        "Prefabs/UI/ScreenLayersPrefab/MainMenuCanvas",
+        "Prefabs/UI/ScreenLayersPrefab/MainSettingsCanvas",
+        "Prefabs/UI/SaveSystemUI/SaveSelectorManager",
+        "Prefabs/UI/SaveSystemUI/SaveInfoCanvasScreen"
+      ],
+      "CameraPath": "Cameras/MainMenuCamera"
+    },
+    {
+      "SceneName": "TestScene",
+      "SceneIndex": 1,
+      "PrefabCanvasScreensPath": [
+        "Prefabs/UI/PauseMenuCanvasScreen",
+        "Prefabs/UI/SaveSystemUI/SaveInfoCanvasScreen"
+      ],
+      "CameraPath": "Cameras/GamePlayCamera"
+    },
+    {
+      "SceneName": "MechanicWorkshop",
+      "SceneIndex": 2,
+      "PrefabCanvasScreensPath": [
+        "Prefabs/UI/PauseMenuCanvasScreen",
+        "Prefabs/UI/SaveSystemUI/SaveInfoCanvasScreen"
+      ],
+      "CameraPath": "Cameras/MechanicWorkshopCamera"
+    },
+    {
+      "SceneName": "MeshTestRegion",
+      "SceneIndex": 3,
+      "PrefabCanvasScreensPath": [
+        "Prefabs/UI/PauseMenuCanvasScreen",
+        "Prefabs/UI/SaveSystemUI/SaveInfoCanvasScreen"
+      ],
+      "CameraPath": "Cameras/GamePlayCamera"
+    }
+  ]
+}

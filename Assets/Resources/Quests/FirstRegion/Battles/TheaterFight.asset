@@ -1,0 +1,321 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387414d3797034b46a07f3706ca49a94, type: 3}
+  m_Name: TheaterFight
+  m_EditorClassIdentifier: 
+  QuestName: TheaterFight
+  QuestDescription: '-'
+  ShowQuestElements: 0
+  UnlockName: SawBlade
+  UpgradePoints: 0
+  <QuestElementsAndTransformsPaths>k__BackingField: []
+  StartPositionPath: 
+  ShowDebugPopupOnStart: 0
+  ShowDebugPopupOnFinish: 0
+  QuestLocationPath: Level/Region/Teatr/Battlefield
+  AcceptQuestOnLocationEnter: 0
+  FailQuestOnLocationExit: 1
+  <ActorSpawnInfo>k__BackingField:
+  - CenterTransformPath: Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition
+    Radius: 19
+    MoldCounts:
+    - Mold: {fileID: 11400000, guid: 7696fe28d53bed94990640bed9af14dc, type: 2}
+      Count: 21
+    - Mold: {fileID: 11400000, guid: bb50ffea8be23994888e55f2663819ec, type: 2}
+      Count: 21
+    - Mold: {fileID: 11400000, guid: 599a7da9b8e265d4497ad0a604880b66, type: 2}
+      Count: 21
+  - CenterTransformPath: Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition
+    Radius: 25
+    MoldCounts:
+    - Mold: {fileID: 11400000, guid: e4a9eedb0f211e642af7a9009ebd00d3, type: 2}
+      Count: 11
+    - Mold: {fileID: 11400000, guid: aa18eb532b263f64cb3755fc75553d21, type: 2}
+      Count: 11
+    - Mold: {fileID: 11400000, guid: 5f63182bbe9a3fe4eb153de66cdbb5d5, type: 2}
+      Count: 11
+  - CenterTransformPath: Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition
+    Radius: 19
+    MoldCounts:
+    - Mold: {fileID: 11400000, guid: c50c03b4f7b7bef4faf6d471c4cf35db, type: 2}
+      Count: 6
+    - Mold: {fileID: 11400000, guid: dad3c538f8c10704e99195ba17b8347b, type: 2}
+      Count: 6
+    - Mold: {fileID: 11400000, guid: 3893cc4c0d7f8544481d0c9db314dd8b, type: 2}
+      Count: 6
+  ActorsToSpawn:
+  - ParentTransformPath: Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition
+    TransformPaths:
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).0
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).1
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).2
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).3
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).4
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).5
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).6
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).7
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).8
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).9
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).10
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).11
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).12
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).13
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).14
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).15
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).16
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).17
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).18
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).19
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).20
+    Mold: {fileID: 11400000, guid: 7696fe28d53bed94990640bed9af14dc, type: 2}
+    SavePosition: 0
+  - ParentTransformPath: Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition
+    TransformPaths:
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).0
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).1
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).2
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).3
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).4
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).5
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).6
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).7
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).8
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).9
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).10
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).11
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).12
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).13
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).14
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).15
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).16
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).17
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).18
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).19
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists HeavyArmor).20
+    Mold: {fileID: 11400000, guid: bb50ffea8be23994888e55f2663819ec, type: 2}
+    SavePosition: 0
+  - ParentTransformPath: Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition
+    TransformPaths:
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).0
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).1
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).2
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).3
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).4
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).5
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).6
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).7
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).8
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).9
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).10
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).11
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).12
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).13
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).14
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).15
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).16
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).17
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).18
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).19
+    - Level/Region/Teatr/Battlefield/FightQuest/MeleeSpawnPosition/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).20
+    Mold: {fileID: 11400000, guid: 599a7da9b8e265d4497ad0a604880b66, type: 2}
+    SavePosition: 0
+  - ParentTransformPath: Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition
+    TransformPaths:
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow DefaultArmor).0
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow DefaultArmor).1
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow DefaultArmor).2
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow DefaultArmor).3
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow DefaultArmor).4
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow DefaultArmor).5
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow DefaultArmor).6
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow DefaultArmor).7
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow DefaultArmor).8
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow DefaultArmor).9
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow DefaultArmor).10
+    Mold: {fileID: 11400000, guid: e4a9eedb0f211e642af7a9009ebd00d3, type: 2}
+    SavePosition: 0
+  - ParentTransformPath: Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition
+    TransformPaths:
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow HeavyArmor).0
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow HeavyArmor).1
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow HeavyArmor).2
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow HeavyArmor).3
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow HeavyArmor).4
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow HeavyArmor).5
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow HeavyArmor).6
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow HeavyArmor).7
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow HeavyArmor).8
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow HeavyArmor).9
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow HeavyArmor).10
+    Mold: {fileID: 11400000, guid: aa18eb532b263f64cb3755fc75553d21, type: 2}
+    SavePosition: 0
+  - ParentTransformPath: Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition
+    TransformPaths:
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow MiddleArmor).0
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow MiddleArmor).1
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow MiddleArmor).2
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow MiddleArmor).3
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow MiddleArmor).4
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow MiddleArmor).5
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow MiddleArmor).6
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow MiddleArmor).7
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow MiddleArmor).8
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow MiddleArmor).9
+    - Level/Region/Teatr/Battlefield/FightQuest/BowSpawnPosition/ChubzikNumber( SniperBowAI
+      Bow MiddleArmor).10
+    Mold: {fileID: 11400000, guid: 5f63182bbe9a3fe4eb153de66cdbb5d5, type: 2}
+    SavePosition: 0
+  - ParentTransformPath: Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition
+    TransformPaths:
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle DefaultArmor).0
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle DefaultArmor).1
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle DefaultArmor).2
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle DefaultArmor).3
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle DefaultArmor).4
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle DefaultArmor).5
+    Mold: {fileID: 11400000, guid: c50c03b4f7b7bef4faf6d471c4cf35db, type: 2}
+    SavePosition: 0
+  - ParentTransformPath: Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition
+    TransformPaths:
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle HeavyArmor).0
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle HeavyArmor).1
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle HeavyArmor).2
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle HeavyArmor).3
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle HeavyArmor).4
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle HeavyArmor).5
+    Mold: {fileID: 11400000, guid: dad3c538f8c10704e99195ba17b8347b, type: 2}
+    SavePosition: 0
+  - ParentTransformPath: Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition
+    TransformPaths:
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle MiddleArmor).0
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle MiddleArmor).1
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle MiddleArmor).2
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle MiddleArmor).3
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle MiddleArmor).4
+    - Level/Region/Teatr/Battlefield/FightQuest/RifleSpawnPosition/ChubzikNumber(
+      SniperBowAI Rifle MiddleArmor).5
+    Mold: {fileID: 11400000, guid: 3893cc4c0d7f8544481d0c9db314dd8b, type: 2}
+    SavePosition: 0
+  IndividualQuestActors: []
+  CanBeRestarted: 0

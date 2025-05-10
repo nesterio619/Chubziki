@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 600d91aab5bc5b24baa2c47758a1c6d4, type: 3}
+  m_Name: Demo-Holden VN Commodore 2
+  m_EditorClassIdentifier: 
+  Style: 2
+  AutoGenerate: 0
+  _materialSettings:
+    _matBody: {fileID: 2100000, guid: ce04820ba9d865c4a8ee900fadca2472, type: 2}
+    _matGlass: {fileID: 2100000, guid: 3a4716471c44ed949a95ce66c9b366aa, type: 2}
+    _matWheel: {fileID: 2100000, guid: 7bb84074833dfa346bb911d4d8b4f88a, type: 2}
+    _isHoodDecalEnabled: 0
+    _matHoodDecal: {fileID: 0}
+    _textureOverrideHood: {fileID: 0}
+    _isBodyTopDecalEnabled: 0
+    _matBodyTopDecal: {fileID: 0}
+    _textureOverrideBodyTop: {fileID: 0}
+  _colorSettings:
+    _colors:
+    - {r: 0.80392164, g: 0.1254902, b: 0.09411766, a: 1}
+    - {r: 0.14117648, g: 0.14117648, b: 0.14117648, a: 1}
+    - {r: 0.69411767, g: 0.6745098, b: 0.6745098, a: 1}
+    - {r: 0.9333334, g: 0.9215687, b: 0.79215693, a: 1}
+    - {r: 0.59278214, g: 0.7264151, b: 0.71088237, a: 1}
+    - {r: 0.08257337, g: 0.084905684, b: 0.07168923, a: 1}
+    - {r: 1, g: 0, b: 1, a: 1}
+    _hoodDecalColor: {r: 1, g: 1, b: 1, a: 1}
+    _bodyTopDecalColor: {r: 0, g: 0.253304, b: 1, a: 1}
+    _bodyColorSettings:
+      _underSideID: 1
+      _wheelCompartmentID: 1
+    _wheelsColorSettings:
+      _tireID: 5
+      _capID: 2
+      _capCenterID: 0
+      _fenderID: 0
+    _backColorSettings:
+      _doorID: 0
+      _trunkFrameID: 1
+      _body_TopID: 0
+      _body_BottomID: 1
+    _frontColorSettings:
+      _hoodID: 0
+      _hoodFrameID: 1
+      _trunkFrameID: 2
+      _body_TopLeftID: 1
+      _body_TopRightID: 1
+      _body_BottomLeftID: 1
+      _body_BottomRightID: 1
+    _noseColorSettings:
+      _ridgeID: 1
+      _bodyID: 1
+      _grillPlateID: 2
+      _grillSlitsID: 1
+    _roofColorSettings:
+      _bodyID: 0
+    _windowColorSettings:
+      _frameID: 0
+      _glassID: 2
+    _doorColorSettings:
+      _body_TopID: 0
+      _body_BottomID: 1
+      _handleID: 1
+    _lightsColorSettings:
+      _bodyID: 3
+    _wingMirrorSettings:
+      _housingID: 1
+    _bumperFrontColorSettings:
+      _bodyID: 3
+    _bumperBackColorSettings:
+      _bodyID: 5
+    _licensePlateColorSettings:
+      _bodyID: 2
+  _bodySettings:
+    _style: 2
+    _totalWidthRange: {x: 1.5, y: 2.8}
+    _heightOfTheGroundRange: {x: 0.05, y: 0.5}
+    _bodyLength: {x: 0, y: 4}
+    _bodyHeightRange: {x: 0, y: 1.5}
+    _slantedShapeSidewaysOffset: {x: 0.06, y: 0.2}
+    _slantedShapeHeightStartPercentageRange: {x: 0.4, y: 0.75}
+    _trunkLength: {x: 0, y: 1}
+    _hoodLength: {x: 0, y: 2.6}
+    _hoodHeightPercentageRange: {x: 1, y: 1}
+  _wheelSettings:
+    _wheelCapStyles:
+    - {fileID: 11400000, guid: 54eb9fa42814f7546af87901a25647ff, type: 2}
+    _resolution: 18
+    _wheelRadiusMinMax: {x: 0.18, y: 0.55}
+    _wheelWidthMinMax: {x: 0.18, y: 0.35}
+    _wheelFrontPositionPercent_01: {x: 0.7, y: 0.55}
+    _wheelOutwardsOffsetMinMax: {x: 0.02, y: -0.03}
+    _wheelFreeSpaceMinMax: {x: 0, y: 0.08}
+    _isFenderEnabled: 0
+    _outerFenderShapes:
+    - {fileID: 11400000, guid: 59ffcaca2420b2e4faeb57b0ae2fda48, type: 2}
+    _outerFenderResolutions: 18000000
+    _outerFenderWidthMinMax: {x: 0.03, y: 0.06}
+    _outerFenderLengthMinMax: {x: 0.03, y: 0.27}
+  _backSettings:
+    _style: 0
+    _keepTrunkBottomAboveWheel: 0
+    _trunkDoorHeightPercentageRange: {x: 0.5, y: 0.75}
+    _trunkWallThicknessRange: {x: 0.05, y: 0.2}
+    _trunkDepthRange: {x: 0.05, y: 0.2}
+  _frontSettings:
+    _hoodlidSpaceFromEdgesRange: {x: 0.04, y: 0.1}
+    _keepTrunkBottomAboveWheel: 0
+    _trunkDepthRange: {x: 0.05, y: 0.2}
+  _noseGrillLightsSettings:
+    _noseSettings:
+      _isRidgeEnabled: 1
+      _ridgeShapes:
+      - {fileID: 11400000, guid: 8351b36dad12ff24f960df7ad915a509, type: 2}
+      _ridgeWidthMinMax: {x: 0.03, y: 0.06}
+      _ridgeLengthMinMax: {x: 0.03, y: 0.06}
+      _isGrillEnabled: 1
+      _grillGapCount: {x: 2, y: 5}
+      _grillWidthPercentageRange: {x: 0.5, y: 1}
+      _grillHeightPercentageRange: {x: 0.5, y: 1}
+      _grillThicknessRange: {x: 0.01, y: 0.03}
+    _lightsSettings:
+      _widthRange: {x: 0.6, y: 0.6}
+      _heightRange: {x: 0.025, y: 0.6}
+      _thicknessRange: {x: 0.03, y: 0.05}
+      _yOffsetRange: {x: 0, y: 0}
+  _roofSettings:
+    _height: {x: 0, y: 1}
+    _distanceFromFrontMinMax: {x: 0.05, y: 0.8}
+    _distanceFromSideMinMax: {x: 0.05, y: 0.18}
+    _distanceFromBackMinMax: {x: 0.1, y: 1}
+  _windowSettings:
+    _windowSpacingRange: {x: 0.05, y: 0.08}
+    _windowIndentationRange: {x: 0.05, y: 0.1}
+    _generateSideBackWindows: 0
+    _generateBackWindow: 1
+  _doorSettings:
+    _widthRange: {x: 0.6, y: 1.95}
+    _handleEnabled: 1
+    _handleSize: {x: 0.05, y: 0.1, z: 0.2}
+    _handleOffsetSideRange: {x: 0.03, y: 0.29}
+    _handleOffsetHeightRange: {x: 0.03, y: 0.08}
+  _wingMirrorSettings:
+    _isEnabled: 1
+    _sizeXMinMax: {x: 0.06, y: 0.15}
+    _sizeYMinMax: {x: 0.06, y: 0.16}
+    _thicknessMinMax: {x: 0.05, y: 0.29}
+    _frontScalerMinMax: {x: 0.75, y: 0.14}
+    _armLengthMinMax: {x: 0.05, y: 0.15}
+    _armThicknessMinMax: {x: 0.05, y: 0.15}
+    _armAngleMinMax: {x: 0, y: 45}
+    _attachmentOffSetMinMax: {x: 0, y: 0.15}
+    _shapes:
+    - {fileID: 11400000, guid: 1286bb8d5241bc24db6f120f769112c5, type: 2}
+  _bumperSettingsFront:
+    _isEnabled: 1
+    _slantedEdgeMode: 0
+    _thicknessRange: {x: 0.05, y: 0.1}
+    _heightRange: {x: 0.1, y: 0.6}
+    _sideLengthRange: {x: 0.1, y: 0.83}
+    _posOffsetRange: {x: 0.1, y: 0}
+  _bumperSettingsBack:
+    _isEnabled: 1
+    _slantedEdgeMode: 1
+    _thicknessRange: {x: 0.05, y: 0.1}
+    _heightRange: {x: 0.1, y: 0.6}
+    _sideLengthRange: {x: 0.1, y: 2.2}
+    _posOffsetRange: {x: 0.1, y: 0}
+  _licensePlateSettings:
+    _widthRange: {x: 0.6, y: 1}
+    _heightRange: {x: 0.025, y: 0.05, z: 0.1}
+    _thicknessRange: {x: 0.03, y: 0.05}

@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6602153200518934203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6602153200518934199}
+  - component: {fileID: 6602153200518934200}
+  - component: {fileID: 6602153200518934201}
+  - component: {fileID: 6602153200518934202}
+  m_Layer: 0
+  m_Name: Default TerraForge Terrain For Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &6602153200518934199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602153200518934203}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!218 &6602153200518934200
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602153200518934203}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: d51c5a6c63fb81943a2d28a5f285af74, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 1
+  m_SplatMapDistance: 2180
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_StaticShadowCaster: 0
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+--- !u!154 &6602153200518934201
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602153200518934203}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: d51c5a6c63fb81943a2d28a5f285af74, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!114 &6602153200518934202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6602153200518934203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4587ed4f0a32ba441b9ef61bcc31c79e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generalSettings:
+    autoUpdateTerrainGeneration: 0
+    terrainHeight: 15
+    terrainSize: 1000
+    bufferTerrainSize: 1000
+    terrainResolution: 513
+    bufferTerrainResolution: 513
+    currentTerrainData: {fileID: 15600000, guid: d51c5a6c63fb81943a2d28a5f285af74, type: 2}
+    saveTerrainData: 1
+    currentTerrainDataFileRuntimePath: 
+    terrainMaterial: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+    bufferTerrainMaterial: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  terrainLayers:
+  - isEnabled: 1
+    blurRadius: 0
+    noiseType: 3
+    fractalType: 3
+    depth: 10
+    scale: 70
+    octaves: 8
+    lacunarity: 2.5
+    persistence: 0.4
+    seed: 1
+    inversion: 0
+    heightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.3684236
+        outSlope: 0.3684236
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.3492487
+        value: 0.12867147
+        inSlope: 0.26979968
+        outSlope: 0.26979968
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 1
+      - serializedVersion: 3
+        time: 0.73922
+        value: 0.9951336
+        inSlope: 0.11364447
+        outSlope: 0.11364447
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 1
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.018661024
+        outSlope: 0.018661024
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    invertedHeightCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    useFalloffMap: 0
+    falloffAngleFactor: 0.55
+    falloffRange: 14.9
+  - isEnabled: 1
+    blurRadius: 0
+    noiseType: 2
+    fractalType: 2
+    depth: 60
+    scale: 15
+    octaves: 8
+    lacunarity: 2.5
+    persistence: 0.4
+    seed: 8
+    inversion: 0
+    heightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.9875664
+        outSlope: 0.9875664
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6556296
+        value: 0.64747775
+        inSlope: 1.0192854
+        outSlope: 1.0192854
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.8922405
+        value: 0.8961569
+        inSlope: 1.0073303
+        outSlope: 1.0073303
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.96365625
+        outSlope: 0.96365625
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    invertedHeightCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    useFalloffMap: 0
+    falloffAngleFactor: 0.55
+    falloffRange: 14.9
+  hydraulicErosionLayerSettings:
+    isEnabled: 1
+    iterations: 101709
+    erosionResolution: 513
+    erosionSteps: 2
+    erosionRadius: 2
+    inertia: 0.05
+    minSedimentCapacity: 0.01
+    maxDropletLifetime: 48
+    initialWaterVolume: 1
+    isHydraulicErosionLayerModified: 0
+    strength: 1
+    useFalloffMap: 1
+    falloffTransitionWidth: 0.028
+    falloffRange: 0.485
+  terrainEdgeSmoothingSettings:
+    isEnabled: 1
+    blurRadius: 1
+    falloffTransitionWidth: 3
+    falloffRange: 3
+  contactHeightsGenerators:
+    contactHeightsGenerator_Right:
+      heightsGenerator: {fileID: 0}
+      transitionWidth: 0
+      transitionStrength: 0
+      diagonalBlending: 0
+      bothHalves: 0
+      firstHalf: 0
+      secondHalf: 0
+    contactHeightsGenerator_Left:
+      heightsGenerator: {fileID: 0}
+      transitionWidth: 0
+      transitionStrength: 0
+      diagonalBlending: 0
+      bothHalves: 0
+      firstHalf: 0
+      secondHalf: 0
+    contactHeightsGenerator_Top:
+      heightsGenerator: {fileID: 0}
+      transitionWidth: 0
+      transitionStrength: 0
+      diagonalBlending: 0
+      bothHalves: 0
+      firstHalf: 0
+      secondHalf: 0
+    contactHeightsGenerator_Bottom:
+      heightsGenerator: {fileID: 0}
+      transitionWidth: 0
+      transitionStrength: 0
+      diagonalBlending: 0
+      bothHalves: 0
+      firstHalf: 0
+      secondHalf: 0
+  terrain: {fileID: 6602153200518934200}
+  biomeSettings: {fileID: 0}
+  showTerrainSettings: 0
+  showTerrainNoiseLayersSettings: 1
+  showHydraulicErosionLayerSettings: 0

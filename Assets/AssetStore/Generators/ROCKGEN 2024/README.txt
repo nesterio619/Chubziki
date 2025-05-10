@@ -1,0 +1,1 @@
+Open the documentation from the "ROCKGEN Documentation" folder :)

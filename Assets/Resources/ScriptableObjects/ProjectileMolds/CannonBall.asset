@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e426ff4f59d9a284a8b5ee8ed6194a28, type: 3}
+  m_Name: CannonBall
+  m_EditorClassIdentifier: 
+  damage: 6
+  defaultSpeed: 14
+  lifetimeAfterHit: 6
+  IsSharp: 0
+  pushTarget: 1
+  ownWeight: 200
+  pushForceTarget: 20
+  ProjectileBase: {fileID: 11400000, guid: 42f9e061e9036454098239169d0ed0ad, type: 2}
+  ModelOfProjectile: {fileID: 11400000, guid: 1746ff68b61a3574a871a195ee175350, type: 2}
+  ParticlesOnHitting: {fileID: 11400000, guid: b94e5faf118bc3644b53bc7892c39594, type: 2}
+  ParticlesWhileProjectileFlies: {fileID: 0}
+  DurationScaling: 0
+  ParticlesOffset: {x: 0, y: 0, z: 0}

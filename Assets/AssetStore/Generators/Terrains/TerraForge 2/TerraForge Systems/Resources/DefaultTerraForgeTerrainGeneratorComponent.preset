@@ -1,0 +1,711 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DefaultTerraForgeTerrainGeneratorComponent
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 4587ed4f0a32ba441b9ef61bcc31c79e, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: generalSettings.autoUpdateTerrainGeneration
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: generalSettings.terrainHeight
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: generalSettings.terrainSize
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: generalSettings.bufferTerrainSize
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: generalSettings.terrainResolution
+    value: 513
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: generalSettings.bufferTerrainResolution
+    value: 513
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: generalSettings.currentTerrainData
+    value: 
+    objectReference: {fileID: 15600000, guid: 90ee02fd1d193e44186bcc60adfd3553, type: 2}
+  - target: {fileID: 0}
+    propertyPath: generalSettings.saveTerrainData
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: generalSettings.currentTerrainDataFileRuntimePath
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: generalSettings.terrainMaterial
+    value: 
+    objectReference: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  - target: {fileID: 0}
+    propertyPath: generalSettings.bufferTerrainMaterial
+    value: 
+    objectReference: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].isEnabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].blurRadius
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].noiseType
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].fractalType
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].depth
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].scale
+    value: 70
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].octaves
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].lacunarity
+    value: 2.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].persistence
+    value: 0.4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].seed
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].inversion
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[0].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[0].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[0].inSlope
+    value: 0.3684236
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[0].outSlope
+    value: 0.3684236
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[0].tangentMode
+    value: 34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[0].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[1].time
+    value: 0.3492487
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[1].value
+    value: 0.12867147
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[1].inSlope
+    value: 0.26979968
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[1].outSlope
+    value: 0.26979968
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[1].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[1].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[1].outWeight
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[2].time
+    value: 0.73922
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[2].value
+    value: 0.9951336
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[2].inSlope
+    value: 0.11364447
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[2].outSlope
+    value: 0.11364447
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[2].tangentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[2].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[2].outWeight
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[3].time
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[3].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[3].inSlope
+    value: 0.018661024
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[3].outSlope
+    value: 0.018661024
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[3].tangentMode
+    value: 34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[3].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[3].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_Curve.Array.data[3].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].heightCurve.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].invertedHeightCurve.m_Curve.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].invertedHeightCurve.m_PreInfinity
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].invertedHeightCurve.m_PostInfinity
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].invertedHeightCurve.m_RotationOrder
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].useFalloffMap
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].falloffAngleFactor
+    value: 0.55
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[0].falloffRange
+    value: 14.9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].isEnabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].blurRadius
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].noiseType
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].fractalType
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].depth
+    value: 60
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].scale
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].octaves
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].lacunarity
+    value: 2.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].persistence
+    value: 0.4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].seed
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].inversion
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[0].time
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[0].value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[0].inSlope
+    value: 0.9875664
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[0].outSlope
+    value: 0.9875664
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[0].tangentMode
+    value: 34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[0].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[0].inWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[0].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[1].time
+    value: 0.6556296
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[1].value
+    value: 0.64747775
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[1].inSlope
+    value: 1.0192854
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[1].outSlope
+    value: 1.0192854
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[1].tangentMode
+    value: 34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[1].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[1].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[1].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[2].time
+    value: 0.8922405
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[2].value
+    value: 0.8961569
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[2].inSlope
+    value: 1.0073303
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[2].outSlope
+    value: 1.0073303
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[2].tangentMode
+    value: 34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[2].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[2].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[2].outWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[3].time
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[3].value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[3].inSlope
+    value: 0.96365625
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[3].outSlope
+    value: 0.96365625
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[3].tangentMode
+    value: 34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[3].weightedMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[3].inWeight
+    value: 0.33333334
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_Curve.Array.data[3].outWeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_PreInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_PostInfinity
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].heightCurve.m_RotationOrder
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].invertedHeightCurve.m_Curve.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].invertedHeightCurve.m_PreInfinity
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].invertedHeightCurve.m_PostInfinity
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].invertedHeightCurve.m_RotationOrder
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].useFalloffMap
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].falloffAngleFactor
+    value: 0.55
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainLayers.Array.data[1].falloffRange
+    value: 14.9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hydraulicErosionLayerSettings.isEnabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hydraulicErosionLayerSettings.iterations
+    value: 101709
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hydraulicErosionLayerSettings.erosionResolution
+    value: 513
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hydraulicErosionLayerSettings.erosionSteps
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hydraulicErosionLayerSettings.erosionRadius
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hydraulicErosionLayerSettings.inertia
+    value: 0.05
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hydraulicErosionLayerSettings.minSedimentCapacity
+    value: 0.01
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hydraulicErosionLayerSettings.maxDropletLifetime
+    value: 48
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hydraulicErosionLayerSettings.initialWaterVolume
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hydraulicErosionLayerSettings.isHydraulicErosionLayerModified
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hydraulicErosionLayerSettings.strength
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hydraulicErosionLayerSettings.useFalloffMap
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hydraulicErosionLayerSettings.falloffTransitionWidth
+    value: 0.028
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: hydraulicErosionLayerSettings.falloffRange
+    value: 0.485
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainEdgeSmoothingSettings.isEnabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainEdgeSmoothingSettings.blurRadius
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainEdgeSmoothingSettings.falloffTransitionWidth
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainEdgeSmoothingSettings.falloffRange
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Right.heightsGenerator
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Right.transitionWidth
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Right.transitionStrength
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Right.diagonalBlending
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Right.bothHalves
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Right.firstHalf
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Right.secondHalf
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Left.heightsGenerator
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Left.transitionWidth
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Left.transitionStrength
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Left.diagonalBlending
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Left.bothHalves
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Left.firstHalf
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Left.secondHalf
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Top.heightsGenerator
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Top.transitionWidth
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Top.transitionStrength
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Top.diagonalBlending
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Top.bothHalves
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Top.firstHalf
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Top.secondHalf
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Bottom.heightsGenerator
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Bottom.transitionWidth
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Bottom.transitionStrength
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Bottom.diagonalBlending
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Bottom.bothHalves
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Bottom.firstHalf
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: contactHeightsGenerators.contactHeightsGenerator_Bottom.secondHalf
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrain
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: biomeSettings
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: showTerrainSettings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: showTerrainNoiseLayersSettings
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: showHydraulicErosionLayerSettings
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

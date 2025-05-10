@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4892227086822365371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4892227086822365365}
+  - component: {fileID: 4892227086822365364}
+  - component: {fileID: 4208314657344024836}
+  m_Layer: 0
+  m_Name: Default TerraForge Terrain Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4892227086822365365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4892227086822365371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4892227086822365364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4892227086822365371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fac1ba1a3c56fd438e8b8fed13ea539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteTerrainDataPreviousGeneration: 1
+  terrainsMaterial: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  bufferTerrainsMaterial: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  terrainsResolution: 513
+  bufferTerrainsResolution: 513
+  gridColumns: 3
+  gridLines: 3
+  transitionWidth: 250
+  transitionStrength: 1
+  biomes:
+  - {fileID: 11400000, guid: 1a8898d4b8ef78c45bf139cadd40ac11, type: 2}
+  enableEmptyBiomesCreation: 0
+  emptyBiomesCreationChance: 0.5
+  emptyBiomesHeight: 15
+  isEnabled: 1
+  blurRadius: 1
+  falloffTransitionWidth: 0.5
+  falloffRange: 0.5
+  terrainSize: 1000
+  bufferTerrainSize: 0
+  terrains:
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 0
+    indexInQueue: 3
+    column: 0
+    line: 0
+    actionNumber: 7
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 1
+    indexInQueue: 124
+    column: 1
+    line: 0
+    actionNumber: 1
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 2
+    indexInQueue: 4
+    column: 2
+    line: 0
+    actionNumber: 8
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 3
+    indexInQueue: 2
+    column: 0
+    line: 1
+    actionNumber: 2
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 4
+    indexInQueue: 1
+    column: 1
+    line: 1
+    actionNumber: 5
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 5
+    indexInQueue: 3
+    column: 2
+    line: 1
+    actionNumber: 3
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 6
+    indexInQueue: 5
+    column: 0
+    line: 2
+    actionNumber: 9
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 7
+    indexInQueue: 125
+    column: 1
+    line: 2
+    actionNumber: 1
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 8
+    indexInQueue: 6
+    column: 2
+    line: 2
+    actionNumber: 10
+    isEmptyBiome: 0
+  terrainsBlendQueue:
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 4
+    indexInQueue: 1
+    column: 1
+    line: 1
+    actionNumber: 5
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 3
+    indexInQueue: 2
+    column: 0
+    line: 1
+    actionNumber: 2
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 0
+    indexInQueue: 3
+    column: 0
+    line: 0
+    actionNumber: 7
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 5
+    indexInQueue: 3
+    column: 2
+    line: 1
+    actionNumber: 3
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 2
+    indexInQueue: 4
+    column: 2
+    line: 0
+    actionNumber: 8
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 6
+    indexInQueue: 5
+    column: 0
+    line: 2
+    actionNumber: 9
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 8
+    indexInQueue: 6
+    column: 2
+    line: 2
+    actionNumber: 10
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 1
+    indexInQueue: 124
+    column: 1
+    line: 0
+    actionNumber: 1
+    isEmptyBiome: 0
+  - heightsGenerator: {fileID: 0}
+    terrainGameObject: {fileID: 0}
+    indexInArray: 7
+    indexInQueue: 125
+    column: 1
+    line: 2
+    actionNumber: 1
+    isEmptyBiome: 0
+  showGridSettings: 1
+  showTerrainsSettings: 0
+  showBiomesSettings: 0
+--- !u!114 &4208314657344024836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4892227086822365371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0aea8f3ef7412f4395f3e3637b323e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrains: []
+  splatmapResolution: 256
+  colorMapResolution: 256
+  layerSettings:
+  - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: 12e5cf8ed24c7d24e9c0f2cb8f85c59d, type: 2}
+    modifierStack:
+    - {fileID: 11400000, guid: df1635ed2be68614e973dc5d19242a37, type: 2}
+    - {fileID: 11400000, guid: c1a5467ddf350ac4e9bd17dd3af9d1e1, type: 2}
+  - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: 3146fcf314a8f4e4bab66ce6111a5fb1, type: 2}
+    modifierStack:
+    - {fileID: 11400000, guid: a0a0d06c54e60b24f86585e69c00a0b1, type: 2}
+    - {fileID: 11400000, guid: 8dcc83897d3f3c846b1a4418280eead6, type: 2}
+  - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: 192aa2bcf3c0236478cb57461597f328, type: 2}
+    modifierStack:
+    - {fileID: 11400000, guid: 60cb535d2ca0a264599fae7ebecc7cb5, type: 2}
+  - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: 4faed86bca9aeb44c8d7370fa7d8103a, type: 2}
+    modifierStack:
+    - {fileID: 11400000, guid: f7a4f80c589a18242b51d415c03b23cd, type: 2}
+    - {fileID: 11400000, guid: 70c9cdfd8ed8818418dd83e5fe2b734b, type: 2}
+  - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: 43af18cb5960a854bb6ee74238e71dc7, type: 2}
+    modifierStack:
+    - {fileID: 11400000, guid: f932d25170f33f94b9c846bd574314ad, type: 2}
+    - {fileID: 11400000, guid: 3f14ec2771701b44aa59f19083e0dff6, type: 2}
+    - {fileID: 11400000, guid: 9599160ab257ef74ca908a5e5e380760, type: 2}
+    - {fileID: 11400000, guid: a732336de07dd844094746724eb7b08b, type: 2}
+    - {fileID: 11400000, guid: 70d7657cc8021b04a8276cd7b74ae929, type: 2}
+  - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: c1336b5a7b74b7f4cb747151fde9bf0b, type: 2}
+    modifierStack:
+    - {fileID: 11400000, guid: 33914909f3822e842a56c8374d1db223, type: 2}
+    - {fileID: 11400000, guid: 400e85c3ef5269044994d1e2e17d6118, type: 2}
+  - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: 635cb608366de9d499faab3703f176f9, type: 2}
+    modifierStack:
+    - {fileID: 11400000, guid: 19489825e74f3e845aca4c7d410ab4b4, type: 2}
+    - {fileID: 11400000, guid: 20ba884d6c7ad564d9ea3650489e8ae7, type: 2}
+  - enabled: 1
+    layer: {fileID: 8574412962073106934, guid: e5621e480a0e09944ad53ff58d227ced, type: 2}
+    modifierStack: []
+  autoRepaint: 1
+  terrainListeners: []
+  bounds:
+    m_Center: {x: NaN, y: NaN, z: NaN}
+    m_Extent: {x: NaN, y: NaN, z: NaN}
+  filterShader: {fileID: 4800000, guid: b032cb644f52ab14087aded3e4dedc7f, type: 3}

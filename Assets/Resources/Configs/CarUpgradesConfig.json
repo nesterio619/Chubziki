@@ -1,0 +1,68 @@
+{
+  "CarUpgradesList": [
+    {
+      "dictInfo": {
+        "Max forward speed": {
+          "BaseValue": 40.0,
+          "ValuePerUpgrade": 6.5
+        },
+        "Max reverse speed": {
+          "BaseValue": 30.0,
+          "ValuePerUpgrade": 4.5
+        },
+        "ForwardGrip": {
+          "BaseValue": 0.55,
+          "ValuePerUpgrade": 0.0825
+        }
+      }
+    },
+    {
+      "dictInfo": {
+        "Speed acceleration": {
+          "BaseValue": 150.0,
+          "ValuePerUpgrade": 8
+        },
+        "Speed decceleration": {
+          "BaseValue": 3.3,
+          "ValuePerUpgrade": 0.3
+        },
+        "Brake force": {
+          "BaseValue": 900.0,
+          "ValuePerUpgrade": 38.0
+        }
+      }
+    },
+    {
+      "dictInfo": {
+        "Steering angle": {
+          "BaseValue": 30.0,
+          "ValuePerUpgrade": 0.18
+        },
+        "Steering angle speed": {
+          "BaseValue": 23.0,
+          "ValuePerUpgrade": 0.15
+        },
+        "SidewaysGrip": {
+          "BaseValue": 8,
+          "ValuePerUpgrade": 0.45
+        },
+        "SidewaysStiffnes": {
+          "BaseValue": 1.0,
+          "ValuePerUpgrade": 0.09
+        }
+      }
+    },
+    {
+      "dictInfo": {
+        "Weight": {
+          "BaseValue": 150.0,
+          "ValuePerUpgrade": 7.5
+        },
+        "Health": {
+          "BaseValue": 0,
+          "ValuePerUpgrade": 1.5
+        }
+      }
+    }
+  ]
+}

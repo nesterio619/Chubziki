@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 600d91aab5bc5b24baa2c47758a1c6d4, type: 3}
+  m_Name: PlayerCarSettings
+  m_EditorClassIdentifier: 
+  _bodyPivotPercentage: 0.516
+  _materialSettings:
+    _matBody: {fileID: 2100000, guid: ce04820ba9d865c4a8ee900fadca2472, type: 2}
+    _matGlass: {fileID: 2100000, guid: 3a4716471c44ed949a95ce66c9b366aa, type: 2}
+    _matWheel: {fileID: 2100000, guid: 7bb84074833dfa346bb911d4d8b4f88a, type: 2}
+    _isHoodDecalEnabled: 0
+    _matHoodDecal: {fileID: 0}
+    _textureOverrideHood: {fileID: 0}
+    _isBodyTopDecalEnabled: 0
+    _matBodyTopDecal: {fileID: 0}
+    _textureOverrideBodyTop: {fileID: 0}
+  _colorSettings:
+    _colors:
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 0.32941177, g: 0.80392164, b: 0.9725491, a: 1}
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 0.066037714, g: 0.066037714, b: 0.066037714, a: 1}
+    - {r: 0.03529412, g: 0.043137256, b: 0.054901965, a: 1}
+    - {r: 1, g: 1, b: 1, a: 1}
+    - {r: 1, g: 0, b: 0, a: 1}
+    _hoodDecalColor: {r: 1, g: 1, b: 1, a: 1}
+    _bodyTopDecalColor: {r: 0, g: 0.253304, b: 1, a: 1}
+    _bodyColorSettings:
+      _underSideID: 5
+      _wheelCompartmentID: 5
+    _wheelsColorSettings:
+      _tireID: 3
+      _capID: 5
+      _capCenterID: 4
+      _fenderID: 0
+    _backColorSettings:
+      _doorID: 0
+      _trunkFrameID: 0
+      _body_TopID: 0
+      _body_BottomID: 0
+    _frontColorSettings:
+      _hoodID: 0
+      _hoodFrameID: 0
+      _trunkFrameID: 0
+      _body_TopLeftID: 0
+      _body_TopRightID: 0
+      _body_BottomLeftID: 0
+      _body_BottomRightID: 0
+    _noseColorSettings:
+      _ridgeID: 0
+      _bodyID: 0
+      _grillPlateID: 4
+      _grillSlitsID: 5
+    _roofColorSettings:
+      _bodyID: 0
+    _windowColorSettings:
+      _frameID: 0
+      _glassID: 1
+    _doorColorSettings:
+      _body_TopID: 0
+      _body_BottomID: 0
+      _handleID: 3
+    _lightsColorSettings:
+      _bodyID: 2
+    _wingMirrorSettings:
+      _housingID: 4
+    _bumperFrontColorSettings:
+      _bodyID: 4
+    _bumperBackColorSettings:
+      _bodyID: 4
+    _licensePlateColorSettings:
+      _bodyID: 5
+  _bodySettings:
+    Style: 1
+    TotalWidth: 1.65
+    HeightOfTheGround: 0.45
+    BodyLength: 2.8
+    BodyHeight: 0.7
+    SlantedShapeSidewaysOffset: 0.135
+    SlantedShapeHeightStartPercentage: 0
+    TrunkLength: 0.48
+    HoodLength: 0.975
+    HoodHeightPercentage: 0.76
+  _wheelSettings:
+    WheelCapStyles:
+    - {fileID: 11400000, guid: 2ab1b83c476f0bb4583407e755da5926, type: 2}
+    Resolution: 16
+    WheelRadius: 0.39
+    WheelWidth: 0.275
+    WheelFrontPositionPercent: 0
+    WheelOutwardsOffset: 0.02
+    WheelFreeSpace: 0
+    IsFenderEnabled: 0
+    OuterFenderShapes:
+    - {fileID: 11400000, guid: d5f090a86bb1f3946987fde6c2205536, type: 2}
+    OuterFenderResolution: 10
+    OuterFenderWidth: 0.04
+    OuterFenderLength: 0.05
+  _backSettings:
+    Style: 0
+    KeepTrunkBottomAboveWheel: 0
+    TrunkDoorHeightPercentage: 1
+    TrunkWallThickness: 0.1
+    TrunkDepth: 0
+  _frontSettings:
+    HoodlidSpaceFromEdges: 0.02
+    KeepTrunkBottomAboveWheel: 0
+    TrunkDepth: 0.2
+  _noseGrillLightsSettings:
+    NoseSettings:
+      IsRidgeEnabled: 0
+      RidgeShapes:
+      - {fileID: 11400000, guid: 8351b36dad12ff24f960df7ad915a509, type: 2}
+      RidgeWidth: 0.06
+      RidgeLength: 0.06
+      IsGrillEnabled: 1
+      GrillGapCount: 5
+      GrillWidthPercentage: 1
+      GrillHeightPercentage: 0.9
+      GrillThickness: 0.04
+    LightsSettings:
+      Width: 0.33
+      Height: 0.19
+      Thickness: 0.05
+      YOffset: 0
+  _roofSettings:
+    Height: 0.43
+    DistanceFromFront: 0.82
+    DistanceFromSide: 0.2
+    DistanceFromBack: 0.48
+  _windowSettings:
+    WindowSpacing: 0.05
+    WindowIndentation: 0.1
+    GenerateSideBackWindows: 1
+    GenerateBackWindow: 1
+  _doorSettings:
+    Width: 1.32
+    HandleEnabled: 1
+    HandleSize: {x: 0.03, y: 0.06, z: 0.2}
+    HandleOffsetSide: 0.12
+    HandleOffsetHeight: 0.03
+  _wingMirrorSettings:
+    IsEnabled: 1
+    Shapes:
+    - {fileID: 11400000, guid: 1286bb8d5241bc24db6f120f769112c5, type: 2}
+    SizeX: 0.2
+    SizeY: 0.175
+    Thickness: 0.075
+    FrontScaler: 0.7
+    ArmLength: 0.15
+    ArmThickness: 0
+    ArmAngle: 35.5
+    AttachmentOffSet: 0.09
+  _bumperSettingsFront:
+    IsEnabled: 1
+    SlantedEdgeMode: 1
+    Thickness: 0.05
+    Height: 0.3
+    SideLength: 0.4
+    PosOffset: 0
+  _bumperSettingsBack:
+    IsEnabled: 1
+    SlantedEdgeMode: 1
+    Thickness: 0.05
+    Height: 0.3
+    SideLength: 0.4
+    PosOffset: 0
+  _licensePlateSettings:
+    Width: 0.5
+    Height: 0.13
+    Thickness: 0.03

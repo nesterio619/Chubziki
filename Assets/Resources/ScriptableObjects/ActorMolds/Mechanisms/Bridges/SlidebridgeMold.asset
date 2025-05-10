@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b948e774f62e0664993bfaecd3d1fd1c, type: 3}
+  m_Name: SlidebridgeMold
+  m_EditorClassIdentifier: 
+  <_PrefabPoolInfo>k__BackingField: {fileID: 11400000, guid: 25a59e370f568784280502a81192d10c,
+    type: 2}
+  <prefabPoolInfo>k__BackingField: {fileID: 11400000, guid: 25a59e370f568784280502a81192d10c,
+    type: 2}
+  DisplayGizmos: 1
+  BridgeType: 1
+  Size: {x: 4.8, y: 0.2, z: 12}
+  ZSpacing: 0
+  TargetValue: -10
+  StartOpened: 0
+  MoveDuration: 4
+  MoveEase: 4

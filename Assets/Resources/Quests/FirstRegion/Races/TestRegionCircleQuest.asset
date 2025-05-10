@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0606d1bb3f4a34f4f8f4cabe63699b36, type: 3}
+  m_Name: TestRegionCircleQuest
+  m_EditorClassIdentifier: 
+  QuestName: TestRegionCircleQuest
+  QuestDescription: 
+  ShowQuestElements: 0
+  UnlockName: None
+  UpgradePoints: 15
+  <QuestElementsAndTransformsPaths>k__BackingField:
+  - TransformPath: Level/Region/Water Pumping Station/Dam/Environment/Start
+    _PrefabPoolInfo: {fileID: 11400000, guid: 4d3cf7d6d0e1d144cbb253c542606d27, type: 2}
+  - TransformPath: Level/Region/Water Pumping Station/Dam/Environment/Finish
+    _PrefabPoolInfo: {fileID: 11400000, guid: 9353e26a64783b345bd1b6d3d0c61a56, type: 2}
+  - TransformPath: Level/Region/Market/Chubzik Spawns/Environment/Circle/Cirlce/Checkpoint0
+    _PrefabPoolInfo: {fileID: 11400000, guid: cda2ae8d6b03d154b9a1e00fc74197f3, type: 2}
+  - TransformPath: Level/Region/Market/Chubzik Spawns/Environment/Circle/Checkpoint6
+    _PrefabPoolInfo: {fileID: 11400000, guid: cda2ae8d6b03d154b9a1e00fc74197f3, type: 2}
+  - TransformPath: Level/Region/Market/Chubzik Spawns/Environment/Circle/Cirlce/Checkpoint7
+    _PrefabPoolInfo: {fileID: 11400000, guid: cda2ae8d6b03d154b9a1e00fc74197f3, type: 2}
+  - TransformPath: Level/Region/Market/Chubzik Spawns/Environment/Circle/Cirlce/Checkpoint8
+    _PrefabPoolInfo: {fileID: 11400000, guid: cda2ae8d6b03d154b9a1e00fc74197f3, type: 2}
+  - TransformPath: Level/Region/Mechanism/Stone platform/Environment/Circle/Checkpoint1
+    _PrefabPoolInfo: {fileID: 11400000, guid: cda2ae8d6b03d154b9a1e00fc74197f3, type: 2}
+  - TransformPath: Level/Region/Mechanism/Stone platform/Environment/Circle/Checkpoint2
+    _PrefabPoolInfo: {fileID: 11400000, guid: cda2ae8d6b03d154b9a1e00fc74197f3, type: 2}
+  - TransformPath: Level/Region/Mechanism/Stone platform/Environment/Circle/Checkpoint3
+    _PrefabPoolInfo: {fileID: 11400000, guid: cda2ae8d6b03d154b9a1e00fc74197f3, type: 2}
+  - TransformPath: Level/Region/Mechanism/Stone platform/Environment/Circle/Checkpoint4
+    _PrefabPoolInfo: {fileID: 11400000, guid: cda2ae8d6b03d154b9a1e00fc74197f3, type: 2}
+  - TransformPath: Level/Region/Water Pumping Station/Forest near the water/Environment/Checkpoint5
+    _PrefabPoolInfo: {fileID: 11400000, guid: cda2ae8d6b03d154b9a1e00fc74197f3, type: 2}
+  - TransformPath: Level/Region/Water Pumping Station/Dam/Environment/AiRacers/AiRacer_1
+    _PrefabPoolInfo: {fileID: 11400000, guid: e65caafeeee7cca49ad5f13cab9d2a5f, type: 2}
+  - TransformPath: Level/Region/Water Pumping Station/Dam/Environment/AiRacers/AiRacer_2
+    _PrefabPoolInfo: {fileID: 11400000, guid: e65caafeeee7cca49ad5f13cab9d2a5f, type: 2}
+  - TransformPath: Level/Region/Water Pumping Station/Dam/Environment/AiRacers/AiRacer_3
+    _PrefabPoolInfo: {fileID: 11400000, guid: e65caafeeee7cca49ad5f13cab9d2a5f, type: 2}
+  - TransformPath: Level/Region/Water Pumping Station/Dam/Environment/AiRacers/AiRacer_4
+    _PrefabPoolInfo: {fileID: 11400000, guid: e65caafeeee7cca49ad5f13cab9d2a5f, type: 2}
+  StartPositionPath: Level/Region/Water Pumping Station/Dam/Environment/Start
+  ShowDebugPopupOnStart: 0
+  ShowDebugPopupOnFinish: 1
+  QuestLocationPath: 
+  AcceptQuestOnLocationEnter: 1
+  FailQuestOnLocationExit: 1
+  <ActorSpawnInfo>k__BackingField: []
+  ActorsToSpawn: []
+  IndividualQuestActors: []
+  CanBeRestarted: 1
+  CirclesForRace: 3

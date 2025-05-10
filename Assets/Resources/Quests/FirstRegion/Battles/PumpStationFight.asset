@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387414d3797034b46a07f3706ca49a94, type: 3}
+  m_Name: PumpStationFight
+  m_EditorClassIdentifier: 
+  QuestName: PumpStationFight
+  QuestDescription: 
+  ShowQuestElements: 0
+  UnlockName: None
+  UpgradePoints: 12
+  <QuestElementsAndTransformsPaths>k__BackingField: []
+  StartPositionPath: 
+  ShowDebugPopupOnStart: 0
+  ShowDebugPopupOnFinish: 0
+  QuestLocationPath: Level/Region/Water Pumping Station/Water Pumping Station Battlefield
+  AcceptQuestOnLocationEnter: 0
+  FailQuestOnLocationExit: 1
+  <ActorSpawnInfo>k__BackingField:
+  - CenterTransformPath: Level/Region/Water Pumping Station/Water Pumping Station
+      Battlefield/FightQuest/Melee
+    Radius: 16
+    MoldCounts:
+    - Mold: {fileID: 11400000, guid: 7696fe28d53bed94990640bed9af14dc, type: 2}
+      Count: 12
+    - Mold: {fileID: 11400000, guid: 599a7da9b8e265d4497ad0a604880b66, type: 2}
+      Count: 12
+  - CenterTransformPath: Level/Region/Water Pumping Station/Water Pumping Station
+      Battlefield/FightQuest/Ranged
+    Radius: 16
+    MoldCounts:
+    - Mold: {fileID: 11400000, guid: e4a9eedb0f211e642af7a9009ebd00d3, type: 2}
+      Count: 8
+    - Mold: {fileID: 11400000, guid: c50c03b4f7b7bef4faf6d471c4cf35db, type: 2}
+      Count: 3
+    - Mold: {fileID: 11400000, guid: aa18eb532b263f64cb3755fc75553d21, type: 2}
+      Count: 1
+    - Mold: {fileID: 11400000, guid: dad3c538f8c10704e99195ba17b8347b, type: 2}
+      Count: 1
+  ActorsToSpawn:
+  - ParentTransformPath: Level/Region/Water Pumping Station/Water Pumping Station
+      Battlefield/FightQuest/Melee
+    TransformPaths:
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).0
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).1
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).2
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).3
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).4
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).5
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).6
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).7
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).8
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).9
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).10
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists DefaultArmor).11
+    Mold: {fileID: 11400000, guid: 7696fe28d53bed94990640bed9af14dc, type: 2}
+    SavePosition: 0
+  - ParentTransformPath: Level/Region/Water Pumping Station/Water Pumping Station
+      Battlefield/FightQuest/Melee
+    TransformPaths:
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).0
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).1
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).2
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).3
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).4
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).5
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).6
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).7
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).8
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).9
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).10
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Melee/ChubzikNumber(
+      MeleeAI Fists MiddleArmor).11
+    Mold: {fileID: 11400000, guid: 599a7da9b8e265d4497ad0a604880b66, type: 2}
+    SavePosition: 0
+  - ParentTransformPath: Level/Region/Water Pumping Station/Water Pumping Station
+      Battlefield/FightQuest/Ranged
+    TransformPaths:
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Ranged/ChubzikNumber(
+      SniperBowAI Bow DefaultArmor).0
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Ranged/ChubzikNumber(
+      SniperBowAI Bow DefaultArmor).1
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Ranged/ChubzikNumber(
+      SniperBowAI Bow DefaultArmor).2
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Ranged/ChubzikNumber(
+      SniperBowAI Bow DefaultArmor).3
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Ranged/ChubzikNumber(
+      SniperBowAI Bow DefaultArmor).4
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Ranged/ChubzikNumber(
+      SniperBowAI Bow DefaultArmor).5
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Ranged/ChubzikNumber(
+      SniperBowAI Bow DefaultArmor).6
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Ranged/ChubzikNumber(
+      SniperBowAI Bow DefaultArmor).7
+    Mold: {fileID: 11400000, guid: e4a9eedb0f211e642af7a9009ebd00d3, type: 2}
+    SavePosition: 0
+  - ParentTransformPath: Level/Region/Water Pumping Station/Water Pumping Station
+      Battlefield/FightQuest/Ranged
+    TransformPaths:
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Ranged/ChubzikNumber(
+      SniperBowAI Rifle DefaultArmor).0
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Ranged/ChubzikNumber(
+      SniperBowAI Rifle DefaultArmor).1
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Ranged/ChubzikNumber(
+      SniperBowAI Rifle DefaultArmor).2
+    Mold: {fileID: 11400000, guid: c50c03b4f7b7bef4faf6d471c4cf35db, type: 2}
+    SavePosition: 0
+  - ParentTransformPath: Level/Region/Water Pumping Station/Water Pumping Station
+      Battlefield/FightQuest/Ranged
+    TransformPaths:
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Ranged/ChubzikNumber(
+      SniperBowAI Bow HeavyArmor).0
+    Mold: {fileID: 11400000, guid: aa18eb532b263f64cb3755fc75553d21, type: 2}
+    SavePosition: 0
+  - ParentTransformPath: Level/Region/Water Pumping Station/Water Pumping Station
+      Battlefield/FightQuest/Ranged
+    TransformPaths:
+    - Level/Region/Water Pumping Station/Water Pumping Station Battlefield/FightQuest/Ranged/ChubzikNumber(
+      SniperBowAI Rifle HeavyArmor).0
+    Mold: {fileID: 11400000, guid: dad3c538f8c10704e99195ba17b8347b, type: 2}
+    SavePosition: 0
+  IndividualQuestActors: []
+  CanBeRestarted: 0

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d75049333243c94783c1844915db6bb, type: 3}
+  m_Name: TerraForgeGlobalSettings
+  m_EditorClassIdentifier: 
+  enableConfirmation: 1
+  delayBetweenAutomaticGeneratingOperations: 100
+  defaultTerraForgeTerrain: {fileID: 6602153200518934203, guid: 7a1d92fec06b8c54299673c5e1a7f005,
+    type: 3}
+  defaultTerraForgeTerrainForGrid: {fileID: 6602153200518934203, guid: 4e469a6a79e4eee4b892f7bf0866c315,
+    type: 3}
+  defaultTerraForgeTerrainData: {fileID: 15600000, guid: d51c5a6c63fb81943a2d28a5f285af74,
+    type: 2}
+  biomePreviewTerraForgeTerrain: {fileID: 7084267768357663448, guid: 2c68fc3dd45d0f4458d6f48629c43748,
+    type: 3}
+  biomePreviewTerraForgeTerrainData: {fileID: 15600000, guid: 31f81b21ffb19084ca0ef16137aaf59b,
+    type: 2}
+  defaultTerraForgeTerrainGrid: {fileID: 4892227086822365371, guid: 1241c18e9557bc848ba46eb96aed856c,
+    type: 3}
+  editorPathToSaveTerrainData: Assets/TerraForge 2/TerrainsData
+  hydraulicErosionComputeShader: {fileID: 7200000, guid: 24de49d8787b52e48ae9d18d7e08e3a7,
+    type: 3}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f49eee67396a434b9cda41a67f77264, type: 3}
+  m_Name: Terra_Forge_Terrain_Painter_Noise_11
+  m_EditorClassIdentifier: 
+  enabled: 1
+  label: Noise
+  blendMode: 0
+  opacity: 100
+  passIndex: 4
+  terrainData: {fileID: 15600000, guid: 1a6391243f707e84ea6acdde0448ad52, type: 2}
+  noiseType: 0
+  noiseScale: 51
+  noiseOffset: {x: 0, y: 0}
+  levels: {x: 0.5, y: 1}

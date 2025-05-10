@@ -1,0 +1,45 @@
+
+online (illustrated) documentation: https://epouv.github.io/Simple-See-Through-shaders-Documentation/
+
+Thank you for using the Simple See Through Shaders for Unity3d URP.
+
+How to use:
+
+To create the see through effect you will need at least 2 objects:
+
+    the object that should be rendered invisible by the mask
+    the mask object
+
+
+The effect uses two shaders: mask and maskable. The Materials>Exemples folder contains 6 simple maskable shaders created with shader graph and then turned maskable. (see "mask any shader section")
+Mask any shader
+Shader Graph
+
+While Shader Graph does not supports stencil commands we can still make shaders created with it interact with our mask.
+To do that we must turn the graph into a shader file:
+
+    +Select the ShaderGraph file, and in the inspector click "copy code"
+    +In you project create a shader: right click -> create -> shader -> new standard surface shader and name it how you want
+    +Paste the copied shader graph code over the shader file template code (keep the top line containing the name you chose)
+    +Delete the shader graph name
+
+To add the stencil to this newly created shader proceed to the next section.
+Shader File
+
+In your shader code, in the "tags" section at the top of the subgraph, make sure that "Queue" is set to "transparent+2"
+
+After the "tags" section, in the Subgraph before the "pass", paste the following code:
+
+              Stencil
+                {
+                    Ref 1
+                    Comp NotEqual
+                    Pass Keep
+                    Fail Keep
+                    ZFail Keep
+                }
+
+Don't forget to create a material from it and assign it to the object you want masked!
+
+support, feedback and questions: rascarcapackdev@gmail.com
+

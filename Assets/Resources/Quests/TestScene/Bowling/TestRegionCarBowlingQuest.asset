@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537689a7e525f3a4397949f27a570eb8, type: 3}
+  m_Name: TestRegionCarBowlingQuest
+  m_EditorClassIdentifier: 
+  QuestName: TestRegionCarBowlingQuest
+  QuestDescription: 
+  ShowQuestElements: 0
+  <QuestElementsAndTransformsPaths>k__BackingField:
+  - TransformPath: Level/Region/Market/Pier/Environment/BowlingAlley
+    _PrefabPoolInfo: {fileID: 11400000, guid: 4c7b3fb81a3c4174eb10fc7102d26c7c, type: 2}
+  - TransformPath: Level/Region/Market/Pier/Environment/CarBowling/Environment/BrakingLine/BrakingLinePoint
+    _PrefabPoolInfo: {fileID: 11400000, guid: dae85a3ee322cf4458a6006bf80fa059, type: 2}
+  - TransformPath: Level/Region/Market/Pier/Environment/CarBowling/Environment/BowlingPins/BowlingPin_1
+    _PrefabPoolInfo: {fileID: 11400000, guid: f582a1d3df3b1f5418ae81b68d9dbb70, type: 2}
+  - TransformPath: Level/Region/Market/Pier/Environment/CarBowling/Environment/BowlingPins/BowlingPin_2
+    _PrefabPoolInfo: {fileID: 11400000, guid: f582a1d3df3b1f5418ae81b68d9dbb70, type: 2}
+  - TransformPath: Level/Region/Market/Pier/Environment/CarBowling/Environment/BowlingPins/BowlingPin_3
+    _PrefabPoolInfo: {fileID: 11400000, guid: f582a1d3df3b1f5418ae81b68d9dbb70, type: 2}
+  - TransformPath: Level/Region/Market/Pier/Environment/CarBowling/Environment/BowlingPins/BowlingPin_4
+    _PrefabPoolInfo: {fileID: 11400000, guid: f582a1d3df3b1f5418ae81b68d9dbb70, type: 2}
+  - TransformPath: Level/Region/Market/Pier/Environment/CarBowling/Environment/BowlingPins/BowlingPin_5
+    _PrefabPoolInfo: {fileID: 11400000, guid: f582a1d3df3b1f5418ae81b68d9dbb70, type: 2}
+  - TransformPath: Level/Region/Market/Pier/Environment/CarBowling/Environment/BowlingPins/BowlingPin_6
+    _PrefabPoolInfo: {fileID: 11400000, guid: f582a1d3df3b1f5418ae81b68d9dbb70, type: 2}
+  - TransformPath: Level/Region/Market/Pier/Environment/CarBowling/Environment/DirectionArrow/DirectionArrowPoint_1
+    _PrefabPoolInfo: {fileID: 11400000, guid: 6ca9b663919e20d438c3f837178f017a, type: 2}
+  StartPositionPath: Level/Region/Market/Pier/Environment/Start
+  TimeTotalForMission: 6
+  MinOffsetBowlingPin: -3
+  MaxOffsetBowlingPin: 3

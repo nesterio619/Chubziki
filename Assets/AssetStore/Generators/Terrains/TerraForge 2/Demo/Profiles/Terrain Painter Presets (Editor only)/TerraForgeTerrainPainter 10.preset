@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TerraForgeTerrainPainter 10
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: e0aea8f3ef7412f4395f3e3637b323e0, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrains.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrains.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: splatmapResolution
+    value: 256
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: colorMapResolution
+    value: 256
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[0].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[0].layer
+    value: 
+    objectReference: {fileID: 8574412962073106934, guid: 192aa2bcf3c0236478cb57461597f328, type: 2}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[0].modifierStack.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[0].modifierStack.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: bdecf1debc0719a4c8042e8fd271c69b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[1].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[1].layer
+    value: 
+    objectReference: {fileID: 8574412962073106934, guid: 99559aeb940ddc4409c14a3c7205318d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[1].modifierStack.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[1].modifierStack.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: d970a0f7218a90d44b05caad7dc385ce, type: 2}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[2].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[2].layer
+    value: 
+    objectReference: {fileID: 8574412962073106934, guid: c1d5771fbee17e446916ca47d0737708, type: 2}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[2].modifierStack.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[2].modifierStack.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 07342176a3d99164fb4eb5c80c7d30c3, type: 2}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[2].modifierStack.Array.data[1]
+    value: 
+    objectReference: {fileID: 11400000, guid: c3538777d398bbd45943f8344efe1860, type: 2}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[2].modifierStack.Array.data[2]
+    value: 
+    objectReference: {fileID: 11400000, guid: d245ad089c8ae7c48a6dc4c71905572b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[2].modifierStack.Array.data[3]
+    value: 
+    objectReference: {fileID: 11400000, guid: d4c353499fad4b945bf5b8805cbd6471, type: 2}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[3].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[3].layer
+    value: 
+    objectReference: {fileID: 8574412962073106934, guid: 4faed86bca9aeb44c8d7370fa7d8103a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: layerSettings.Array.data[3].modifierStack.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: autoRepaint
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainListeners.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: terrainListeners.Array.data[0]
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bounds.m_Center.x
+    value: 6476.993
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bounds.m_Center.y
+    value: 328
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bounds.m_Center.z
+    value: -9918.607
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bounds.m_Extent.x
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bounds.m_Extent.y
+    value: 300
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: bounds.m_Extent.z
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: filterShader
+    value: 
+    objectReference: {fileID: 4800000, guid: b032cb644f52ab14087aded3e4dedc7f, type: 3}
+  m_ExcludedProperties: []

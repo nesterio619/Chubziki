@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 936a122e91b97d446bb2e37d8a42a715, type: 3}
+  m_Name: DefaultSprintRaceQuest
+  m_EditorClassIdentifier: 
+  QuestName: DefaultSprintRaceQuest
+  QuestDescription: 
+  ShowQuestElements: 0
+  <QuestElementsAndTransformsPaths>k__BackingField:
+  - TransformPath: Level/Region/RaceSector/SprintRaceTrackLocation/Environment/SprintRace/RaceStart
+    _PrefabPoolInfo: {fileID: 11400000, guid: 4d3cf7d6d0e1d144cbb253c542606d27, type: 2}
+  - TransformPath: Level/Region/RaceSector/SprintRaceTrackLocation/Environment/SprintRace/RaceFinish
+    _PrefabPoolInfo: {fileID: 11400000, guid: 9353e26a64783b345bd1b6d3d0c61a56, type: 2}
+  - TransformPath: Level/Region/RaceSector/SprintRaceTrackLocation/Environment/SprintRace/RaceCar
+    _PrefabPoolInfo: {fileID: 11400000, guid: e65caafeeee7cca49ad5f13cab9d2a5f, type: 2}
+  - TransformPath: Level/Region/RaceSector/SprintRaceTrackLocation/Environment/SprintRace/CheckPoints/Checkpoint0
+    _PrefabPoolInfo: {fileID: 11400000, guid: cda2ae8d6b03d154b9a1e00fc74197f3, type: 2}
+  - TransformPath: Level/Region/RaceSector/SprintRaceTrackLocation/Environment/SprintRace/CheckPoints/Checkpoint1
+    _PrefabPoolInfo: {fileID: 11400000, guid: cda2ae8d6b03d154b9a1e00fc74197f3, type: 2}
+  - TransformPath: Level/Region/RaceSector/SprintRaceTrackLocation/Environment/SprintRace/CheckPoints/Checkpoint2
+    _PrefabPoolInfo: {fileID: 11400000, guid: cda2ae8d6b03d154b9a1e00fc74197f3, type: 2}
+  - TransformPath: Level/Region/RaceSector/SprintRaceTrackLocation/Environment/SprintRace/CheckPoints/Checkpoint3
+    _PrefabPoolInfo: {fileID: 11400000, guid: cda2ae8d6b03d154b9a1e00fc74197f3, type: 2}
+  StartPositionPath: Level/Region/RaceSector/SprintRaceTrackLocation/Environment/SprintRace/RaceStart
+  QuestLocationPath: 
+  <ActorsToSpawn>k__BackingField: []
+  TimeForSprint: 25

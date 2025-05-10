@@ -1,0 +1,150 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d9948d1a531c624da3b72222f6e63e3, type: 3}
+  m_Name: BiomeSettings 6
+  m_EditorClassIdentifier: 
+  biomeName: Biome 6
+  terrainHeight: 10
+  terrainLayers:
+  - isEnabled: 1
+    blurRadius: 0
+    noiseType: 3
+    fractalType: 3
+    depth: 40
+    scale: 30
+    octaves: 8
+    lacunarity: 3.22
+    persistence: 0.308
+    seed: 38.5
+    inversion: 0
+    heightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5306673
+        value: 0.5837338
+        inSlope: 2.077958
+        outSlope: 2.077958
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5742003
+        value: 0.7970339
+        inSlope: 1.2319028
+        outSlope: 1.2319028
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: -0.13162568
+        outSlope: -0.13162568
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3546393
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    invertedHeightCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    useFalloffMap: 0
+    falloffAngleFactor: 0.48
+    falloffRange: 35.7
+  - isEnabled: 1
+    blurRadius: 0
+    noiseType: 0
+    fractalType: 4
+    depth: 50
+    scale: 20
+    octaves: 8
+    lacunarity: 3.22
+    persistence: 0.308
+    seed: 6.5
+    inversion: 0
+    heightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.5451111
+        value: 0.36376143
+        inSlope: 1.5946777
+        outSlope: 1.5946777
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.0018921
+        value: 0.7437515
+        inSlope: 1.2465252
+        outSlope: 1.2465252
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.18132257
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    invertedHeightCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    useFalloffMap: 0
+    falloffAngleFactor: 0.96
+    falloffRange: 5.1
+  hydraulicErosionLayerSettings:
+    isEnabled: 1
+    iterations: 101162
+    erosionResolution: 513
+    erosionSteps: 2
+    erosionRadius: 2
+    inertia: 0.0719
+    minSedimentCapacity: 0.0299
+    maxDropletLifetime: 51
+    initialWaterVolume: 3.2
+    isHydraulicErosionLayerModified: 0
+    strength: 0.8
+    useFalloffMap: 1
+    falloffTransitionWidth: 0.028
+    falloffRange: 0.485
+  biomePreviewTerrainPrefab: {fileID: 0}
+  showTerrainLayersSettings: 1
+  showHydraulicErosionLayerSettings: 0

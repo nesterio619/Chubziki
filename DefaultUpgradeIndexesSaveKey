@@ -1,0 +1,78 @@
+{
+  "SpeedStat": {
+    "UpgradeIndex": 4,
+    "CarStatsDictionary": {
+      "Max forward speed": {
+        "Item1": 160.0,
+        "Item2": 20.0
+      },
+      "Max reverse speed": {
+        "Item1": 20.0,
+        "Item2": 70.0
+      },
+      "ForwardFrictionExtremumSlip": {
+        "Item1": 0.5,
+        "Item2": -0.01
+      },
+      "ForwardFrictionExtremumValue": {
+        "Item1": 0.8,
+        "Item2": 0.02
+      }
+    }
+  },
+  "PowerStat": {
+    "UpgradeIndex": 0,
+    "CarStatsDictionary": {
+      "Speed acceleration": {
+        "Item1": 300.0,
+        "Item2": 35.0
+      },
+      "Speed decceleration": {
+        "Item1": 5.0,
+        "Item2": 0.2
+      },
+      "Brake force": {
+        "Item1": 250.0,
+        "Item2": 50.0
+      },
+      "Hand brake drift multiplier": {
+        "Item1": 5.0,
+        "Item2": 1.0
+      }
+    }
+  },
+  "ControlStat": {
+    "UpgradeIndex": 0,
+    "CarStatsDictionary": {
+      "Steering angle": {
+        "Item1": 27.0,
+        "Item2": 0.5
+      },
+      "Steering angle speed": {
+        "Item1": 30.0,
+        "Item2": 2.0
+      },
+      "SidewayFrictionExtremumSlip": {
+        "Item1": 1.0,
+        "Item2": -0.08
+      },
+      "SidewayFrictionExtremumValue": {
+        "Item1": 1.0,
+        "Item2": 0.1
+      }
+    }
+  },
+  "SurviveStat": {
+    "UpgradeIndex": 0,
+    "CarStatsDictionary": {
+      "Weight": {
+        "Item1": 880.0,
+        "Item2": 30.0
+      },
+      "Health": {
+        "Item1": 100.0,
+        "Item2": 10.0
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d9948d1a531c624da3b72222f6e63e3, type: 3}
+  m_Name: BiomeSettings 3
+  m_EditorClassIdentifier: 
+  biomeName: Biome 3
+  terrainHeight: 15
+  terrainLayers:
+  - isEnabled: 1
+    blurRadius: 0
+    noiseType: 4
+    fractalType: 2
+    depth: 80
+    scale: 10
+    octaves: 8
+    lacunarity: 2.5
+    persistence: 0.4
+    seed: 3
+    inversion: 0
+    heightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    invertedHeightCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    useFalloffMap: 0
+    falloffAngleFactor: 1.18
+    falloffRange: 3.5
+  hydraulicErosionLayerSettings:
+    isEnabled: 1
+    iterations: 101709
+    erosionResolution: 513
+    erosionSteps: 2
+    erosionRadius: 4
+    inertia: 0.05
+    minSedimentCapacity: 0.05
+    maxDropletLifetime: 48
+    initialWaterVolume: 4.4
+    isHydraulicErosionLayerModified: 0
+    strength: 1
+    useFalloffMap: 1
+    falloffTransitionWidth: 0.028
+    falloffRange: 0.485
+  biomePreviewTerrainPrefab: {fileID: 0}
+  showTerrainLayersSettings: 1
+  showHydraulicErosionLayerSettings: 0
