@@ -1,2 +1,81 @@
-# Auto detect text files and perform LF normalization
+# --- Line Ending Normalization (Unix/Windows) ---
 * text=auto
+
+# --- Unity YAML Files ---
+{*.mat,*.anim,*.prefab,*.physicsMaterial2D,*.physicMaterial,*.controller} -text merge=unityyamlmerge diff
+
+# --- Unity Meta Files ---
+*.meta                 -text merge=unityyamlmerge diff eol=lf
+
+# --- Unity Project Settings ---
+ProjectSettings/*.asset -text merge=unityyamlmerge diff
+
+# --- Text Files with EOL ---
+*.json                 text auto eol=lf
+*.xml                  text auto eol=lf
+*.yaml                 text auto eol=lf
+*.yml                  text auto eol=lf
+*.csv                  text auto eol=lf
+*.txt                  text auto eol=lf
+
+# --- C# and Shader Files ---
+*.cs                   diff=csharp text eol=lf
+*.cginc                diff=csharp text eol=lf
+*.shader               diff=csharp text eol=lf
+
+# --- Binary Files ---
+*.pdf                  binary
+*.unitypackage         binary
+*.zip                  binary
+*.rar                  binary
+*.7z                   binary
+
+# --- Git LFS (Large File Storage) ---
+
+## Unity Scene and Settings Files
+*.unity                filter=lfs diff=lfs merge=lfs -text
+
+## Audio Files
+*.aif                  filter=lfs diff=lfs merge=lfs -text
+*.aiff                 filter=lfs diff=lfs merge=lfs -text
+*.it                   filter=lfs diff=lfs merge=lfs -text
+*.mod                  filter=lfs diff=lfs merge=lfs -text
+*.mp3                  filter=lfs diff=lfs merge=lfs -text
+*.ogg                  filter=lfs diff=lfs merge=lfs -text
+*.s3m                  filter=lfs diff=lfs merge=lfs -text
+*.wav                  filter=lfs diff=lfs merge=lfs -text
+*.xm                   filter=lfs diff=lfs merge=lfs -text
+
+## Font Files
+*.otf                  filter=lfs diff=lfs merge=lfs -text
+*.ttf                  filter=lfs diff=lfs merge=lfs -text
+
+## Image Files
+*.bmp                  filter=lfs diff=lfs merge=lfs -text
+*.exr                  filter=lfs diff=lfs merge=lfs -text
+*.gif                  filter=lfs diff=lfs merge=lfs -text
+*.hdr                  filter=lfs diff=lfs merge=lfs -text
+*.iff                  filter=lfs diff=lfs merge=lfs -text
+*.jpeg                 filter=lfs diff=lfs merge=lfs -text
+*.jpg                  filter=lfs diff=lfs merge=lfs -text
+*.pict                 filter=lfs diff=lfs merge=lfs -text
+*.png                  filter=lfs diff=lfs merge=lfs -text
+*.psd                  filter=lfs diff=lfs merge=lfs -text
+*.tif                  filter=lfs diff=lfs merge=lfs -text
+*.tiff                 filter=lfs diff=lfs merge=lfs -text
+
+## 3D Model Files
+*.fbx                  filter=lfs diff=lfs merge=lfs -text
+*.obj                  filter=lfs diff=lfs merge=lfs -text
+*.blend                filter=lfs diff=lfs merge=lfs -text
+
+# --- GitHub Linguist ---
+*.asset linguist-generated
+*.mat linguist-generated
+*.meta linguist-generated
+*.prefab linguist-generated
+*.unity linguist-generated
+
+# --- Exclude Temporary Files ---
+*.tmp                  -crlf -diff -merge
+*.log                  -crlf -diff -merge

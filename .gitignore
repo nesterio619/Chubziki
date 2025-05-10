@@ -67,6 +67,21 @@ crashlytics-build.properties
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
-# Temporary auto-generated Android Assets
-/[Aa]ssets/[Ss]treamingAssets/aa.meta
-/[Aa]ssets/[Ss]treamingAssets/aa/*
+# Temporary auto-generated Assets in StreamingAssets
+/[Aa]ssets/[Ss]treamingAssets/*
+/[Aa]ssets/[Ss]treamingAssets/*.meta
+
+# Specific Unity ProBuilder settings file
+ProjectSettings/Packages/com.unity.probuilder/Settings.json
+
+# macOS system file
+.DS_Store
+
+# Unity Scene backups
+/SceneBackups/
+
+# JetBrains IDE settings
+.idea/
+
+# Ensure gitattributes files are considered even if not in the root
+!.gitattributes
