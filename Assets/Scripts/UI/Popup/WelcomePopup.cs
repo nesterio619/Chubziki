@@ -13,6 +13,7 @@ namespace UI.Popup
     {
         [Header("Welcome Specific")]
         [SerializeField] private Image image;
+        [SerializeField] private TextMeshProUGUI headerText;
         [SerializeField] private RectTransform contentRoot;
         [SerializeField] private RectTransform imageContainer;
         [SerializeField] private Sprite imageSprite;
@@ -20,7 +21,7 @@ namespace UI.Popup
         private static WelcomePopup instance;
 
         private const int PADDING = 15;
-        private const int HEADER_SIZE = 40;
+        private const int HEADER_SIZE = 60;
 
         private const string ScriptablePoolInfoPath = "ScriptableObjects/ObjectPool/UI/WelcomePopupPoolInfo";
         private static PrefabPoolInfo imagePopup_PrefabPoolInfo;
@@ -63,8 +64,11 @@ namespace UI.Popup
         {
             _isDisposed = false;
 
-            string text = ComposeText(IsGamepadConnected());
-            InitializeMainText(text);
+            string headerText = ComposeHeaderText();
+            string mainText = ComposeMainText(IsGamepadConnected());
+
+            InitializeHeaderText(headerText);
+            InitializeMainText(mainText);
             InitializeCloseButton();
 
             LoadImage();
@@ -120,27 +124,37 @@ namespace UI.Popup
             return false;
         }
 
-        private string ComposeText(bool isGamepad)
+        private void InitializeHeaderText(string text)
         {
-            string header = $"<size={HEADER_SIZE}>Welcome</size>\n\n";
-            string plot = $"<size={HEADER_SIZE}>Plot:</size>\n" +
+            headerText.text = text;
+        }
+        private string ComposeHeaderText()
+        {
+            string header = $"<size={HEADER_SIZE}>Welcome</color></size>\n\n";
+
+            return header;
+        }
+
+        private string ComposeMainText(bool isGamepad)
+        {
+            string plot = $"<size={HEADER_SIZE}>>Plot:</size>\n" +
                 $"You are a mercenary sent to help a corporation settle down on some island by completing missions.\n" +
                 $"Help them defeat all 'Chubziks' by wiping out their huge coordinated armies, solving physical puzzles, winning races and other quests…\n\n";
-            string task = $"<size={HEADER_SIZE}>Your task:</size>\n" +
+            string task = $"<size={HEADER_SIZE}>>Your task:</size>\n" +
                 $"Try to find equipment and upgrade points scattered around the map by exploring the open-world or get them by completing quests. Customize your car at mechanic-shop to kill all chubziks on map.\n\n";
-            string controls = $"<size={HEADER_SIZE}>Controls:</size>\n" +
+            string controls = $"<size={HEADER_SIZE}>>Controls:</size>\n" +
                 $"Driving is the single most important skill here, besides building a cool vehicle.\n" +
                 $"We hope you will enjoy your time at Chubzia!\n\n" +
                 ComposeControlText(isGamepad);
 
-            return $"{header}This is an open world sandbox, so feel free to experiment and have fun. You define your own adventure!\n\n{plot}{task}{controls}";
+            return $"This is an open world sandbox, so feel free to experiment and have fun. You define your own adventure!\n\n{plot}{task}{controls}";
         }
 
         private string ComposeControlText(bool gamepad)
         {
             return gamepad
-                ? $"Forward - RT 🎮\nBack - LT 🎮\nSteering - Right Stick 🎮\nDrift - B / Circle 🔘"
-                : $"Forward - W ↑\nBack - S ↓\nSteering - A / D ← →\nDrift - Space / Ctrl / Shift";
+                ? $"Forward - RT <sprite name={"RT"}>\nBack - LT <sprite name={"LT"}>\nSteering - Right Stick <sprite name={"R3_1"}> <sprite name={"R3_2"}>\nDrift - B <sprite name={"B"}>/ Circle <sprite name={"Circle"}>"
+                : $"Forward - W <sprite name={"arrow_up"}> \nBack - S <sprite name={"arrow_down"}>\nSteering - A / D <sprite name={"arrow_left"}> <sprite name={"arrow_right"}>\nDrift - Space / Ctrl / Shift";
         }
 
         public override void ReturnToPool()
