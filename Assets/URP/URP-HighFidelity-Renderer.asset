@@ -1,5 +1,29 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2481550023663834028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e598cd55476104d909f677d2b056f508, type: 3}
+  m_Name: SoftOutline
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings: {fileID: 11400000, guid: 98ed187ca6a3ff349a12fbbc7183d67c, type: 2}
+  shaders:
+    mask: {fileID: 4800000, guid: 231df427ffff4fee9202f22ce6a5d357, type: 3}
+    silhouette: {fileID: 4800000, guid: b0e6032b7b104d8db7f40d7f6e743674, type: 3}
+    silhouetteInstanced: {fileID: 4800000, guid: b7b25b6fd39f14aeeba46013a510a40c,
+      type: 3}
+    boxBlur: {fileID: 4800000, guid: d8d4df91388b465aa9a07d27ccc72b73, type: 3}
+    gaussianBlur: {fileID: 4800000, guid: cb6a37cd1abc46e180a83317d8fefb26, type: 3}
+    kawaseBlur: {fileID: 4800000, guid: ead7e4745cd94d22beaeeea69ae381a7, type: 3}
+    dilate: {fileID: 4800000, guid: a987f6629a694e19a74290edccde4040, type: 3}
+    outline: {fileID: 4800000, guid: b0cf66d628f541279229be85e2c31db3, type: 3}
 --- !u!114 &-1878332245247344467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,6 +59,23 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 3302065f671a8450b82c9ddf07426f3a, type: 3}
   - {fileID: 2800000, guid: 56a77a3e8d64f47b6afe9e3c95cb57d5, type: 3}
   m_Shader: {fileID: 4800000, guid: 0849e84e3d62649e8882e9d6f056a017, type: 3}
+--- !u!114 &-1161343677365993443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f513a53c9ad43a3860c8a56ea7dd26b, type: 3}
+  m_Name: SurfaceFill
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings: {fileID: 11400000, guid: dafa46d9d35bfa54a9037341dafee59b, type: 2}
+  shaders:
+    mask: {fileID: 4800000, guid: 7db39fa69b214149be63e199c01483e7, type: 3}
+    fill: {fileID: -6465566751694194690, guid: 37e37d4fece9f421f8a99286f525bf80, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,7 +95,9 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
   - {fileID: 6796798517390485728}
-  m_RendererFeatureMap: adc0de57c6d2eee5e028f6963d14535e
+  - {fileID: -1161343677365993443}
+  - {fileID: -2481550023663834028}
+  m_RendererFeatureMap: adc0de57c6d2eee5e028f6963d14535e1d4074181414e2ef54ac27bb66c38fdd
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
