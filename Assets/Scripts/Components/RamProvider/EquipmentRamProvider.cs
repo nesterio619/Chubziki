@@ -22,5 +22,15 @@ namespace Components.RamProvider
 
             UtilitiesProvider.ForceAddListener(ref CurrentColliderHandler.OnEnter, PushObstacle);
         }
+
+        private protected override Vector3 RamDirection(Vector3 otherPosition)
+        {
+            Vector3 baseDirection = base.RamDirection(otherPosition);
+
+            Quaternion tiltRotation = Quaternion.AngleAxis(-GetRandomExtraPushAngle(), transform.right);
+            Vector3 tiltedDirection = tiltRotation * baseDirection;
+
+            return tiltedDirection.normalized;
+        }
     }
 }

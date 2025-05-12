@@ -9,7 +9,7 @@ using UnityEngine.Events;
 
 public class MeleeEquipment : EquipmentActor
 {
-    [SerializeField] private Collider equpipmentCollider;
+    [SerializeField] private Collider equipmentCollider;
 
     [SerializeField] public EquipmentRamProvider EquipmentRamProvider;
 
@@ -42,12 +42,12 @@ public class MeleeEquipment : EquipmentActor
 
     public Vector3 GetColliderSize()
     {
-        return equpipmentCollider.bounds.size;
+        return equipmentCollider.bounds.size;
     }
 
     public Vector3 GetColliderCenter()
     {
-        return transform.localPosition + equpipmentCollider.bounds.center;
+        return transform.localPosition + equipmentCollider.bounds.center;
     }
     public override void ReturnToPool()
     {
